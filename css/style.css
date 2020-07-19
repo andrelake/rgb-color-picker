@@ -1,0 +1,59 @@
+body {
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  border: 10px solid black;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(230, 230, 216);
+}
+
+.inputs {
+  display: inline-flex;
+}
+
+.colorNames {
+  margin-right: 20px;
+}
+
+.inputRanges {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.inputRange {
+  width: 250px;
+  padding: 12px;
+  margin-right: 20px;
+}
+
+.inputTexts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.inputText {
+  width: 30px;
+  margin: 11px;
+}
+
+.containerSquare {
+  text-align: center;
+}
+
+.square {
+  display: inline-flex;
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}

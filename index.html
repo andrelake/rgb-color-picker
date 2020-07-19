@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>RGB Picker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>RGB Picker</h1>
+      <div class="inputs">
+        <div class="colorNames">
+          <p>(R)Vermelho:</p>
+          <p>(G)Verde:</p>
+          <p>(B)Azul:</p>
+        </div>
+        <div class="inputRanges">
+          <input
+            type="range"
+            class="inputRange"
+            id="inputRangeR"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input
+            type="range"
+            class="inputRange"
+            id="inputRangeG"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input
+            type="range"
+            class="inputRange"
+            id="inputRangeB"
+            value="0"
+            min="0"
+            max="255"
+          />
+        </div>
+        <div class="inputTexts">
+          <input
+            type="text"
+            class="inputText"
+            id="inputTextR"
+            readonly
+            disabled
+          />
+          <input
+            type="text"
+            class="inputText"
+            id="inputTextG"
+            readonly
+            disabled
+          />
+          <input
+            type="text"
+            class="inputText"
+            id="inputTextB"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+      <div class="containerSquare">
+        <div class="square"></div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
